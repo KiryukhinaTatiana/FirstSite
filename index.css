@@ -1,0 +1,220 @@
+body {
+  font-family: "Lato", Geneva, Tahoma, sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  float: left;
+  margin-right: 5px;
+}
+.btn {
+  background-color: #e45f56;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 3px 0 #cd2c21;
+}
+
+.btn:hover {
+  background-color: #e2483d;
+  cursor: pointer;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none !important;
+}
+.headLine {
+  width: 100%;
+  height: 110px;
+  margin: 0 auto;
+  background-color: #70d2dd;
+  font-size: 36px;
+  color: white;
+  line-height: 100px;
+  border-top: 5px solid #2cacbb;
+}
+
+.imageContainer {
+  width: 100%;
+  background-image: url("images/comps.jpg");
+  height: 700px;
+  background-size: cover;
+}
+
+.strapLine {
+  background-color: rgba(112, 210, 221, 0.4);
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.strapLineText {
+  opacity: 1;
+}
+
+.centeredText {
+  text-align: center;
+  width: 100%;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu {
+  height: 50px;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  padding: 0 30%;
+}
+
+.menuLink {
+  color: #6c6c6c;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.menuLink:hover {
+  cursor: pointer;
+  color: #70d2dd;
+}
+
+.header {
+  color: #505050;
+  font-size: 18px;
+  font-family: "Impact", sans-serif;
+  margin-left: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.ContentHeader {
+  font-family: "Lato" Tahoma, sans-serif;
+  font-size: 16px;
+  color: #838383;
+  margin-top: 40px;
+  line-height: 38px;
+}
+.Text {
+  color: #787878;
+  font-family: "Lato" Tahoma, sans-serif;
+  line-height: 28px;
+}
+.ContentWrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+.WithLargeLineHight {
+  line-height: 28px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 16px;
+}
+.FirstWidgets {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.Widgets {
+  width: 150px;
+  height: 100px;
+  flex-direction: row;
+}
+.WidgetsWrapper {
+  height: 140px;
+}
+.Media {
+  width: 200px;
+  height: 100px;
+  flex-direction: row;
+  background-size: cover;
+}
+.MediaWrapper {
+  height: 145px;
+}
+.SocialMedia {
+  width: 100px;
+  height: 100px;
+  flex-direction: row;
+}
+.SocialMediaWrapper {
+  height: 145px;
+}
+.SecondWidgets {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.Blog {
+  width: 100px;
+  height: 100px;
+  flex-direction: row;
+  background-size: cover;
+}
+.BlogWrapper {
+  height: 145px;
+}
+.Menu {
+  width: 100px;
+  height: 100px;
+  flex-direction: row;
+}
+.MenuWrapper {
+  height: 140px;
+}
+.ContactInfo {
+  width: 100px;
+  height: 100px;
+  flex-direction: row;
+}
+.ContactInfoWrapper {
+  height: 145px;
+}
+
+.centeredImage {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.FooterWrapper {
+  background-color: #70d2dd;
+  width: 100%;
+  height: 250px;
+  margin-top: 70px;
+}
+.CaptionPicture {
+  color: #787878;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.FooterText {
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+}
