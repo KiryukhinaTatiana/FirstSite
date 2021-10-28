@@ -83,15 +83,13 @@ li {
   height: 50px;
   margin: 0 auto;
   background-color: white;
-  display: flex;
-  padding: 0 30%;
+  display: table;
 }
 
 .menuLink {
   color: #6c6c6c;
   font-size: 14px;
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
