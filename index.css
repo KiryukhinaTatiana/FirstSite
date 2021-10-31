@@ -8,6 +8,7 @@ ul {
 }
 a {
   text-decoration: none;
+  color: #e45f56;
 }
 li {
   float: left;
@@ -46,6 +47,7 @@ li {
   color: white;
   line-height: 100px;
   border-top: 5px solid #2cacbb;
+  
 }
 
 .imageContainer {
@@ -84,6 +86,7 @@ li {
   margin: 0 auto;
   background-color: white;
   display: table;
+  
 }
 
 .menuLink {
@@ -108,6 +111,7 @@ li {
   margin-left: 400px;
   display: flex;
   align-items: center;
+  
 }
 
 .ContentHeader {
@@ -195,7 +199,7 @@ li {
   height: 145px;
 }
 
-.Menu {
+.MenuImage {
   width: 100px;
   height: 100px;
   flex-direction: row;
@@ -269,4 +273,91 @@ li {
   color: rgb(95, 95, 95);
   font-family: Lato, Geneva, Tahoma, sans-serif;
   font-size: 16px;
+}
+.Links {
+ height: 60px;
+ width: 230px;
+ display: flex;
+ justify-content: space-between;
+ padding-top: 40px;
+}
+.Linkedin {
+  background-image: url("images/linkedin.png");
+  background-color: #787878;
+  height: 32px;
+  width: 32px;
+  border-radius: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 18px;
+}
+.Twitter{
+  background-image: url("images/twitter.png");
+  background-color: #787878;
+  height: 32px;
+  width: 32px;
+  border-radius: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 18px;
+}
+.FaceBook{
+  background-image: url("images/facebook.png");
+  background-color: #787878;
+  height: 32px;
+  width: 32px;
+  border-radius: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 18px;
+}
+.YouTube{
+  background-image: url("images/youtube.png");
+  background-color: #787878;
+  height: 32px;
+  width: 32px;
+  border-radius: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 18px;
+}
+.MenuContainer{
+  width: 100%;
+  border-bottom: 1px solid #aee5ec;
+  
+}
+.PageBlogContent{
+  width: 960px;
+  margin:  0 auto;
+  padding: auto;
+}
+.PageTitle{
+  color:rgb(131, 131, 131);
+  font-family: "Lato", Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+}
+.Content{
+ width: 630px;
+ color: #787878;
+ font-family: "Lato", Geneva, Tahoma, sans-serif;
+ line-height: 28px;
+ margin-right: 30px;
+}
+.PageDescription{
+ display: flex;
+ justify-content: space-between;
+}
+
+.search{
+  border: 1px solid #c5c5c5;
+  border-radius: 3px;
+  padding: 0 1em;
+  height: 40px;
+  width: 260px;
+}
+.SearchPosts{
+  font-family: "Lato", Geneva, Tahoma, sans-serif;
+  color: #787878;
+  font-size: 18px;
 }
