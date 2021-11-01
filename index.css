@@ -334,9 +334,11 @@ li {
 .PageTitle{
   color:rgb(131, 131, 131);
   font-family: "Lato", Geneva, Tahoma, sans-serif;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 100;
-}
+  margin-top: 40px;
+  }
+
 .Content{
  width: 630px;
  color: #787878;
@@ -360,4 +362,27 @@ li {
   font-family: "Lato", Geneva, Tahoma, sans-serif;
   color: #787878;
   font-size: 18px;
+}
+.ImageBlog{
+  background-image: url("images/blog.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  width: 960px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+  
+}
+.ImageBlogWrapper{
+  width: 960px;
+  margin: 0 auto;
+}
+.BlogPost{
+  color: #787878;
+  letter-spacing: inherit;
+  line-height: 28px;
+}
+.BlogTitle{
+  font-size: 30px;
+  font-weight: 100;
 }
