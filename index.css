@@ -10,6 +10,10 @@ a {
   text-decoration: none;
   color: #e45f56;
 }
+a:hover {
+  text-decoration: underline;
+}
+
 li {
   float: left;
   margin-right: 5px;
@@ -47,7 +51,6 @@ li {
   color: white;
   line-height: 100px;
   border-top: 5px solid #2cacbb;
-  
 }
 
 .imageContainer {
@@ -86,7 +89,10 @@ li {
   margin: 0 auto;
   background-color: white;
   display: table;
-  
+}
+
+.menu a:hover {
+  text-decoration: none;
 }
 
 .menuLink {
@@ -111,7 +117,6 @@ li {
   margin-left: 400px;
   display: flex;
   align-items: center;
-  
 }
 
 .ContentHeader {
@@ -275,11 +280,11 @@ li {
   font-size: 16px;
 }
 .Links {
- height: 60px;
- width: 230px;
- display: flex;
- justify-content: space-between;
- padding-top: 40px;
+  height: 60px;
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
 }
 .Linkedin {
   background-image: url("images/linkedin.png");
@@ -291,7 +296,7 @@ li {
   background-repeat: no-repeat;
   background-size: 18px;
 }
-.Twitter{
+.Twitter {
   background-image: url("images/twitter.png");
   background-color: #787878;
   height: 32px;
@@ -301,7 +306,7 @@ li {
   background-repeat: no-repeat;
   background-size: 18px;
 }
-.FaceBook{
+.FaceBook {
   background-image: url("images/facebook.png");
   background-color: #787878;
   height: 32px;
@@ -311,7 +316,7 @@ li {
   background-repeat: no-repeat;
   background-size: 18px;
 }
-.YouTube{
+.YouTube {
   background-image: url("images/youtube.png");
   background-color: #787878;
   height: 32px;
@@ -321,49 +326,48 @@ li {
   background-repeat: no-repeat;
   background-size: 18px;
 }
-.MenuContainer{
+.MenuContainer {
   width: 100%;
   border-bottom: 1px solid #aee5ec;
-  
 }
-.PageBlogContent{
+.PageBlogContent {
   width: 960px;
-  margin:  0 auto;
+  margin: 0 auto;
   padding: auto;
 }
-.PageTitle{
-  color:rgb(131, 131, 131);
+.PageTitle {
+  color: rgb(131, 131, 131);
   font-family: "Lato", Geneva, Tahoma, sans-serif;
   font-size: 30px;
   font-weight: 100;
   margin-top: 40px;
-  }
-
-.Content{
- width: 630px;
- color: #787878;
- font-family: "Lato", Geneva, Tahoma, sans-serif;
- line-height: 28px;
- margin-right: 30px;
-}
-.PageDescription{
- display: flex;
- justify-content: space-between;
 }
 
-.search{
+.Content {
+  width: 630px;
+  color: #787878;
+  font-family: "Lato", Geneva, Tahoma, sans-serif;
+  line-height: 28px;
+  margin-right: 30px;
+}
+.PageDescription {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
   border: 1px solid #c5c5c5;
   border-radius: 3px;
   padding: 0 1em;
   height: 40px;
   width: 260px;
 }
-.SearchPosts{
+.SearchPosts {
   font-family: "Lato", Geneva, Tahoma, sans-serif;
   color: #787878;
   font-size: 18px;
 }
-.ImageBlog{
+.ImageBlog {
   background-image: url("images/blog.jpg");
   height: 400px;
   background-repeat: no-repeat;
@@ -371,18 +375,30 @@ li {
   background-size: cover;
   background-position: center;
   margin-top: 30px;
-  
 }
-.ImageBlogWrapper{
+.ImageBlogWrapper {
   width: 960px;
   margin: 0 auto;
 }
-.BlogPost{
+.BlogPost {
   color: #787878;
   letter-spacing: inherit;
   line-height: 28px;
 }
-.BlogTitle{
+.BlogTitle {
   font-size: 30px;
   font-weight: 100;
+}
+ .WrapperPageReasons{
+  margin: 0 auto;
+  width: 960px;
+ }
+.ImagePage{
+  background-image: url("images/blog.jpg");
+  height: 300px;
+  background-repeat: no-repeat;
+  width: 960px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
 }
