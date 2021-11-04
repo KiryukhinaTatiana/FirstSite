@@ -402,3 +402,28 @@ li {
   background-position: center;
   margin-top: 40px;
 }
+.BlogPostTitle{
+  color: #838383;
+  font-family: "Lato", Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: 100; 
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 900px;
+  margin-bottom: 30px;
+}
+
+.bold {
+  font-weight: bold;
+
+}
+.BlogPostContent{
+  width: 800px;
+  height: 1000px;
+  color: #787878;
+  line-height: 25px;
+  margin: 0 auto;
+}
+.PostContent{
+  margin-bottom: 30px;
+}
